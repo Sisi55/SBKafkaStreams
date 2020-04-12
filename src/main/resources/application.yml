@@ -1,0 +1,7 @@
+server.port: 0
+spring.application.name: sisi-stream-sample
+spring:
+  profiles:
+    #    active: local
+    include: kafka # 설정 파일 보안
+
